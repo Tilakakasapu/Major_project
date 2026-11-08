@@ -56,7 +56,6 @@ DIFFCAP = dict(
 VLMS = {
     "Qwen2.5-VL-3B":   dict(family="qwen",  id="Qwen/Qwen2.5-VL-3B-Instruct",        four_bit=False),
     "InstructBLIP-7B": dict(family="iblip", id="Salesforce/instructblip-vicuna-7b",  four_bit=True),
-    "SmolVLM2-2.2B":   dict(family="smol",  id="HuggingFaceTB/SmolVLM2-2.2B-Instruct", four_bit=False),
 }
 ACTIVE_VLMS = list(VLMS)
 VLM_GPU_MODE = "parallel"   # "parallel": one copy per GPU (faster) | "shard": one copy split over GPUs
