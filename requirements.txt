@@ -1,0 +1,14 @@
+# torch / torchvision are preinstalled on Kaggle; install them yourself locally only if you run the GPU stages.
+transformers>=4.49
+accelerate
+bitsandbytes
+open_clip_torch
+scipy
+pandas
+matplotlib
+numpy
+pillow
+requests
+tqdm
+pycocoevalcap
+num2words

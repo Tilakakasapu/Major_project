@@ -1,0 +1,6 @@
+workdir/
+__pycache__/
+*.pyc
+*.pt
+*.part
+.ipynb_checkpoints/
